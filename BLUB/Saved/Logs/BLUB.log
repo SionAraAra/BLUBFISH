@@ -1233,3 +1233,27 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.10-16.08.11:359][  0]LogStall: Startup complete.
 [2025.11.10-16.08.11:382][  0]LogLoad: (Engine Initialization) Total time: 34.77 seconds
 [2025.11.10-16.08.11:466][  0]LogAssetRegistry: Display: Asset registry cache written as 69.6 MiB to ../../../../../../Users/joesc/OneDrive/Dokumente/School/School/Semester 3/GOPRO2/BLUBFISH/BLUB/Intermediate/CachedAssetRegistry_*.bin
+[2025.11.10-16.08.11:838][  0]LogContentStreaming: Texture pool size now 600 MB
+[2025.11.10-16.08.11:838][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="600"
+[2025.11.10-16.08.11:933][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.11.10-16.08.12:006][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-16.08.12:008][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.11.10-16.08.12:054][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.11.10-16.08.12:060][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 52.336 ms
+[2025.11.10-16.08.12:565][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/joesc/OneDrive/Dokumente/School/School/Semester 3/GOPRO2/BLUBFISH/BLUB/Content/' took 0.82s
+[2025.11.10-16.08.12:567][  1]LogAssetRegistry: AssetRegistryGather time 24.2807s: AssetDataDiscovery 0.1134s, AssetDataGather 24.0797s, StoreResults 0.0877s. Wall time 26.8590s.
+	NumCachedDirectories 0. NumUncachedDirectories 1587. NumCachedFiles 0. NumUncachedFiles 7611.
+	BackgroundTickInterruptions 0.
+[2025.11.10-16.08.12:636][  1]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.11.10-16.08.12:653][  1]LogStreaming: Display: FlushAsyncLoading(387): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.10-16.08.12:658][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.11.10-16.08.12:658][  1]LogSourceControl: Uncontrolled asset discovery started...
+[2025.11.10-16.08.12:809][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 13.270836
+[2025.11.10-16.08.12:813][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.11.10-16.08.12:814][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13.338695
+[2025.11.10-16.08.13:299][  8]LogSourceControl: Uncontrolled asset discovery finished in 0.640651 seconds (Found 7587 uncontrolled assets)
+[2025.11.10-16.08.13:348][  8]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.11.10-16.08.13:615][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 14.079141
+[2025.11.10-16.08.13:618][ 12]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -877650155
+[2025.11.10-16.08.13:618][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14.079141, Update Interval: 346.268494
