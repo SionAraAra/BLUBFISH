@@ -1258,3 +1258,43 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.10-16.08.13:618][ 12]LogEOSSDK: LogEOS: SDK Config Data - Watermark: -877650155
 [2025.11.10-16.08.13:618][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14.079141, Update Interval: 346.268494
 [2025.11.10-16.09.42:911][320]LogDerivedDataCache: C:/Users/joesc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: ================================================
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Total job queries 2,513, among them cache hits 642 (25.55%), DDC hits 1,791 (71.27%), Duplicates 78 (3.10%)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Tracking 1,793 distinct input hashes that result in 1,123 distinct outputs (62.63%)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: RAM used: 11.53 MiB of 1.60 GiB budget. Usage: 0.70%
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 0.12 s
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Job execution time: average 1.96 s, max 2.08 s
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Job life time (pending + execution): average 2.08 s, max 2.20
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Shader code size: total 23.684 KiB, numShaders 2, average 11.842 KiB, min 11.227 KiB, max 12.457 KiB
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.20 s
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Average processing rate: 0.91 jobs/sec
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Total thread time: 2.826 s
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Total thread preprocess time: 87.796 s
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Percentage time preprocessing: 3107.08%
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Effective parallelization: 1.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.128224
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 1.41 sec, max 1.48 sec, min 1.35 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                TVirtualTextureVSDisplacement (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 100.00% of total time (compiled    2 times, average 1.41 sec, max 1.48 sec, min 1.35 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                 TVirtualTextureVSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:897][586]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display:                                 TVirtualTexturePSWorldHeight - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: === Material stats ===
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Materials Translated:    144
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Material Total Translate Time: 0.21 s
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Material Translation Only: 0.07 s (36%)
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.10-16.11.11:898][586]LogShaderCompilers: Display: ================================================
